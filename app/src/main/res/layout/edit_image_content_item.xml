@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/imageMarginLeftRight"
+        android:layout_marginTop="@dimen/imageMarginTopBottom"
+        android:layout_marginRight="@dimen/imageMarginLeftRight"
+        android:layout_marginBottom="@dimen/imageMarginTopBottom">
+
+        <ImageView
+            android:id="@+id/image_editContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="500dp"
+            android:minHeight="150dp"
+            android:src="@drawable/default_0" />
+
+        <ImageButton
+            android:id="@+id/btn_iEditImage"
+            android:layout_width="@dimen/iconWidth"
+            android:layout_height="@dimen/iconHeight"
+            android:layout_alignParentStart="true"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/package_0" />
+
+        <ImageButton
+            android:id="@+id/btn_iEditCamera"
+            android:layout_width="@dimen/iconWidth"
+            android:layout_height="@dimen/iconHeight"
+            android:layout_toRightOf="@id/btn_iEditImage"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/camera_0" />
+
+        <ImageButton
+            android:id="@+id/btn_iDelete"
+            android:layout_width="@dimen/iconWidth"
+            android:layout_height="@dimen/iconHeight"
+            android:layout_alignParentEnd="true"
+            android:adjustViewBounds="true"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/delete_0"
+            android:text="删除" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/btn_iBottomAddImage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:focusable="true"
+            android:text="添加图片" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/btn_iBottomAddParagraph"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:focusable="true"
+            android:text="添加段落" /><View
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

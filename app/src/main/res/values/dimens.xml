@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleTextSize">50sp</dimen>
+    <dimen name="viewParagraphTextSize">20sp</dimen>
+    <dimen name="editParagraphTextSize">20sp</dimen>
+    <dimen name="textMarginLeftRight">20sp</dimen>
+    <dimen name="imageMarginLeftRight">20sp</dimen>
+    <dimen name="imageMarginTopBottom">10sp</dimen>
+    <dimen name="iconWidth">70dp</dimen>
+    <dimen name="iconHeight">50dp</dimen>
+    <dimen name="listTitleTextSize">25sp</dimen>
+</resources>
